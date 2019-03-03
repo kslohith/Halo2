@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:layout_alignParentTop="true"
+        android:id="@+id/heart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+    <Button
+        android:onClick="record"
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/heart"
+        android:layout_marginStart="95dp"
+        android:text="Record" />
+
+    <Button
+        android:onClick="upload"
+        android:id="@+id/submit"
+        android:layout_toRightOf="@+id/record"
+        android:layout_below="@+id/heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"/>
+
+    <ProgressBar
+        android:layout_below="@id/submit"
+        android:id="@+id/pbar"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
