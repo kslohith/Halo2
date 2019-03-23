@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".video"/>
+        <activity android:name=".ContactDoctor"/>
     </application>
 
 </manifest>

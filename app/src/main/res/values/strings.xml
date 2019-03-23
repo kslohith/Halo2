@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">Halo</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_dashboard">Contact Doctor</string>
     <string name="title_notifications">HeartRate</string>
+    <string name="country_prompt">Choose a symptom</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
 </resources>
+
